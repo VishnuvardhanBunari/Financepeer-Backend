@@ -1369,7 +1369,10 @@ packages:
       rimraf: 2.7.1
       semver: 5.7.1
       tar: 4.4.19
-    deprecated: 'Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp package is deprecated and only the @mapbox scoped package will recieve updates in the future'
+    deprecated:
+      'Please upgrade to @mapbox/node-pre-gyp: the non-scoped node-pre-gyp
+      package is deprecated and only the @mapbox scoped package will recieve
+      updates in the future'
     dev: false
     hasBin: true
     resolution:
@@ -1725,7 +1728,9 @@ packages:
       tough-cookie: 2.5.0
       tunnel-agent: 0.6.0
       uuid: 3.4.0
-    deprecated: request has been deprecated, see https://github.com/request/request/issues/3142
+    deprecated:
+      request has been deprecated, see
+      https://github.com/request/request/issues/3142
     dev: false
     engines:
       node: '>= 6'
@@ -1960,7 +1965,9 @@ packages:
       block-stream: 0.0.9
       fstream: 1.0.12
       inherits: 2.0.4
-    deprecated: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+    deprecated:
+      This version of tar is no longer supported, and will not receive security
+      updates. Please upgrade asap.
     dev: false
     optional: true
     resolution:
@@ -2131,7 +2138,10 @@ packages:
     resolution:
       integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
   /uuid/3.4.0:
-    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+    deprecated:
+      Please upgrade  to version 7 or higher.  Older versions may use
+      Math.random() in certain circumstances, which is known to be
+      problematic.  See https://v8.dev/blog/math-random for details.
     dev: false
     hasBin: true
     optional: true
